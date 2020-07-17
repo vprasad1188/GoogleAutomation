@@ -12,5 +12,9 @@ public class LoginPage extends TestBase{
 	WebElement login;
 	
 	
+	public void rough1(){
+		System.out.println("Hello");
+	}
+	   
 
 }
