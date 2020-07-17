@@ -35,13 +35,13 @@ public class TestBase {
 			}
 		}
 	
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		
 		TestBase obj = new TestBase();
 		System.out.println(prop.getProperty("url"));
 		TestBase.initialization();
 		
-	}
+	}*/
 		
 		public static void initialization(){
 			String browserName = prop.getProperty("browser");
