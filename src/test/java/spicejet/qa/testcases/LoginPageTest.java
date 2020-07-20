@@ -25,7 +25,8 @@ public class LoginPageTest extends TestBase{
 	@Test  //TestCase1
 	public void loginPageTitleTest(){
 		String title = loginPage.validatePageTitle();
-		Assert.assertEquals(title, "SpiceJet");
+		System.out.println(title);
+		Assert.assertEquals(title, "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets");
 	}
 	
 	
