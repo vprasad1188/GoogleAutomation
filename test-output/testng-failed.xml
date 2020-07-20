@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="spicejet.qa.testcases.LoginPageTest">
+      <class name="spicejet.qa.testcases.IndigoLoginPageTest">
         <methods>
           <include name="loginPageTitleTest"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- spicejet.qa.testcases.LoginPageTest -->
+      </class> <!-- spicejet.qa.testcases.IndigoLoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
