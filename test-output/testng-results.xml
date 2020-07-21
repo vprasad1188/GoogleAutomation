@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13345" started-at="2020-07-21T18:34:39Z" finished-at="2020-07-21T18:34:52Z">
+  <suite name="Default suite" duration-ms="12039" started-at="2020-07-21T18:55:04Z" finished-at="2020-07-21T18:55:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13345" started-at="2020-07-21T18:34:39Z" finished-at="2020-07-21T18:34:52Z">
-      <class name="spicejet.qa.testcases.IndigoLoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:spicejet.qa.testcases.IndigoLoginPageTest@cc285f4]" name="setUp" is-config="true" duration-ms="9015" started-at="2020-07-22T00:04:39Z" finished-at="2020-07-22T00:04:48Z">
+    <test name="Default test" duration-ms="12039" started-at="2020-07-21T18:55:04Z" finished-at="2020-07-21T18:55:16Z">
+      <class name="spicejet.qa.pages.SeleniumTestNGConstructor">
+        <test-method status="PASS" signature="setup()[pri:0, instance:spicejet.qa.pages.SeleniumTestNGConstructor@6adede5]" name="setup" is-config="true" duration-ms="7821" started-at="2020-07-22T00:25:04Z" finished-at="2020-07-22T00:25:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:spicejet.qa.testcases.IndigoLoginPageTest@cc285f4]" name="loginPageTitleTest" duration-ms="3641" started-at="2020-07-22T00:04:48Z" finished-at="2020-07-22T00:04:51Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="chktitle()[pri:0, instance:spicejet.qa.pages.SeleniumTestNGConstructor@6adede5]" name="chktitle" duration-ms="88" started-at="2020-07-22T00:25:12Z" finished-at="2020-07-22T00:25:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:spicejet.qa.testcases.IndigoLoginPageTest@cc285f4]" name="tearDown" is-config="true" duration-ms="669" started-at="2020-07-22T00:04:51Z" finished-at="2020-07-22T00:04:52Z">
+        </test-method> <!-- chktitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:spicejet.qa.pages.SeleniumTestNGConstructor@6adede5]" name="teardown" is-config="true" duration-ms="4110" started-at="2020-07-22T00:25:12Z" finished-at="2020-07-22T00:25:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- spicejet.qa.testcases.IndigoLoginPageTest -->
+        </test-method> <!-- teardown -->
+      </class> <!-- spicejet.qa.pages.SeleniumTestNGConstructor -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

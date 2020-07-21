@@ -1,7 +1,6 @@
 package spicejet.qa.pages;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -28,11 +27,13 @@ public class Selenium extends IndigoTestBase {
 	
 	public Selenium(){
 		PageFactory.initElements(driverindigo, this);
+		System.out.println("inside selenium constructor");
 	}
 	
 
 	public static void main(String[] args) throws InterruptedException {
-
+        
+		
 		new IndigoTestBase();
 		initialization();
 		System.out.println(driverindigo.getTitle());
