@@ -9,21 +9,36 @@ import spicejet.qa.base.IndigoTestBase;
 public class IndigoLoginPage extends IndigoTestBase{
 	
 	//PageFactory - Object Repository:
-	@FindBy(id="ctl00_HyperLinkLogin")
+	@FindBy(linkText="Login")
 	WebElement login;
+	
+	@FindBy(xpath="//input[@id='memberCC']")
+	WebElement countrycode;
+	
+	@FindBy(xpath="//input[@id='memberId']")
+	WebElement mobnum;
+	
+	@FindBy(xpath="//input[@id='mobilePass']")
+	WebElement pwd;
+	
+	@FindBy(xpath="//span[@class='buttonText']")
+	WebElement loginbutton;
 	
 	//Initializing Page Objects:
 	public IndigoLoginPage(){
+		System.out.println("inside loginpage constructor");
 		PageFactory.initElements(driverindigo, this);
 		}
 	
 	//Actions:
 	
-	public String validatePageTitle(){
-		
+	public String validatePageTitle(){		
 		String title = driverindigo.getTitle();
 		return title;
 	}
+	
+
+	
 	
 	
 	   

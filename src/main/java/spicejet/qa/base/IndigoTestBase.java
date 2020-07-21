@@ -21,6 +21,8 @@ public class IndigoTestBase {
 	
 	public IndigoTestBase(){
 		
+		System.out.println("inside testbase constructor");
+		
 			try {
 				propindigo = new Properties();
 				//System.out.println(System.getProperty("user.dir"));
@@ -28,6 +30,7 @@ public class IndigoTestBase {
 						+ "/qa/config/indigoconfig.properties");
 				propindigo.load(ip);
 				//System.out.println(prop.getProperty("url"));
+				System.out.println("completed testbase constructor");
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			} catch (IOException e) {
@@ -46,12 +49,14 @@ public class IndigoTestBase {
 		public static void initialization(){
 			String browserName = propindigo.getProperty("browser");
 			
+			System.out.println("inside initialization");
+			
 			if(browserName.equals("chrome")){
 				System.setProperty("webdriver.chrome.driver",  "E:\\Eclipse\\GoogleAutomation\\drivers\\chrome\\chromedriver.exe");	
 				driverindigo = new ChromeDriver(); 
 			}
 			else if(browserName.equals("FF")){
-				System.setProperty("webdriver.gecko.driver", "");	
+				System.setProperty("webdriver.gecko.driver", "E:\\Eclipse\\GoogleAutomation\\drivers\\Firefox\\geckodriver-v0.26.0-win64\\geckodriver.exe");	
 				driverindigo = new FirefoxDriver(); 
 			}
 			
@@ -72,6 +77,7 @@ public class IndigoTestBase {
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);*/
 			
 			driverindigo.get(propindigo.getProperty("indigourl"));
+			System.out.println("completed initialization");
 			
 	       }
 	
