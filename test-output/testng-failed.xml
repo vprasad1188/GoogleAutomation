@@ -5,9 +5,9 @@
     <classes>
       <class name="spicejet.qa.testcases.IndigoLoginPageTest">
         <methods>
-          <include name="loginPageTitleTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- spicejet.qa.testcases.IndigoLoginPageTest -->
     </classes>
