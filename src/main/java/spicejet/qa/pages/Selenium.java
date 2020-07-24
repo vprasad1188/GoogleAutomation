@@ -14,7 +14,7 @@ import spicejet.qa.base.IndigoTestBase;
 
 public class Selenium extends IndigoTestBase {
 	
-	
+//Independent class	
 	@FindBy(linkText="Login")
 	WebElement login;
 	
