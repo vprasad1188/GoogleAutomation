@@ -32,12 +32,12 @@ public class IndigoLoginPageTest extends IndigoTestBase{
 		System.out.println("completed setup");
 	}
 	
-/*	@Test(priority=1)  //TestCase1
+	@Test(priority=1)  //TestCase1
 	public void loginPageTitleTest(){
 		String title = indigologinPage.validatePageTitle();
 		System.out.println(title);
 		Assert.assertEquals(title, "Book Domestic & International Flights at Lowest Airfare - IndiGo", "not matching");
-	}*/
+	}
 	
 	@Test(priority=2)  //TestCase2
 	public void loginTest() throws InterruptedException{
@@ -46,12 +46,12 @@ public class IndigoLoginPageTest extends IndigoTestBase{
 		
 	}
 	
-/*	@Test(priority=3) //TestCase3
+	@Test(priority=3) //TestCase3
 	public void bookflightwithoutlogin(){
 		flightSearchPage =indigologinPage.validateBookFlightHamburger();
 		
 	}
-*/
+
 	
 	
 	@AfterMethod
