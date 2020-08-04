@@ -39,7 +39,7 @@ public class IndigoLoginPageTest extends IndigoTestBase{
 		Assert.assertEquals(title, "Book Domestic & International Flights at Lowest Airfare - IndiGo", "not matching");
 	}
 	
-	@Test(priority=2)  //TestCase2
+/*	@Test(priority=2)  //TestCase2
 	public void loginTest() throws InterruptedException{
 		String userProfileLabel = indigologinPage.validateProfileNameLabel(propindigo.getProperty("indiusername"), propindigo.getProperty("indipwd"));
 		Assert.assertEquals(userProfileLabel, "Vinita Prasad", "not matching");
@@ -50,7 +50,7 @@ public class IndigoLoginPageTest extends IndigoTestBase{
 	public void bookflightwithoutlogin(){
 		flightSearchPage =indigologinPage.validateBookFlightHamburger();
 		
-	}
+	}*/
 
 	
 	
